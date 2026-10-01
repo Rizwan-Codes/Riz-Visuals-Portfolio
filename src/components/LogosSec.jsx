@@ -36,7 +36,7 @@ function LogosSec() {
           <img
             className="hidden md:block object-contain w-fit h-fit object-center transition-all duration-500 ease-in-out transform md:group-hover:scale-110 group-hover:opacity-0"
             // src="./src/assets/Logos/Venguard Apex/VA BW.jpg"
-            src={logos[0]}
+            src="./src/assets/VA.jpg"
             alt="Venguard Apex BW"
           />
           <img
