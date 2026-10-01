@@ -25,7 +25,7 @@ function Navbar() {
                     <div
                         className=" bg-transparent w-7 h-7 border border-primary/60 rounded-full"
                     >
-                        <img src="./src/assets/Logo.png" alt="" />
+                        <img src="/images/Logo.png" alt="" />
                     </div>
                     <span className="font-bold tracking-wider font-karla text-[18px] text-white">RIZ VISUALS</span>
                 </div>

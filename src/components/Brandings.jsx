@@ -34,7 +34,7 @@ function Brands() {
                     {/* Main Logo */}
                     <div className="sm:col-span-1 lg:col-span-2 h-65 sm:h-55 overflow-hidden border border-secondary">
                         <img
-                            src="./src/assets/Brandings/MAIN LOGO.jpg"
+                            src="/images/Brandings/MAIN-LOGO.jpg"
                             alt="Main Logo"
                             className="w-full h-full object-cover"
                         />
@@ -44,7 +44,7 @@ function Brands() {
                     {/* Horizontal Logo */}
                     <div className="sm:col-span-2 lg:col-span-4 h-55 overflow-hidden border border-secondary">
                         <img
-                            src="./src/assets/Brandings/horizontal design.jpg"
+                            src="/images/Brandings/horizontal-design.jpg"
                             alt="Horizontal Logo"
                             className="w-full h-full object-cover"
                         />
@@ -68,7 +68,7 @@ function Brands() {
                     {/* Mobile App Icon */}
                     <div className="sm:col-span-1 lg:col-span-3 h-55 overflow-hidden border border-secondary">
                         <img
-                            src="./src/assets/Brandings/mobile app.png"
+                            src="/images/Brandings/mobile-app.png"
                             alt="Mobile App Icon"
                             className="w-full h-full object-cover"
                         />
@@ -80,7 +80,7 @@ function Brands() {
                     {/* Shopping Label */}
                     <div className="sm:col-span-1 lg:col-span-2 h-75 sm:h-85 overflow-hidden border border-secondary">
                         <img
-                            src="./src/assets/Brandings/Shoping Label.png"
+                            src="/images/Brandings/Shoping-Label.png"
                             alt="Shopping Label"
                             className="w-full h-full object-cover"
                         />
@@ -92,7 +92,7 @@ function Brands() {
 
                         <div className="h-35 sm:h-38.75 overflow-hidden border border-secondary">
                             <img
-                                src="./src/assets/Brandings/Card.png"
+                                src="/images/Brandings/Card.png"
                                 alt="Business Card"
                                 className="w-full h-full object-cover"
                             />
@@ -100,7 +100,7 @@ function Brands() {
 
                         <div className="h-35 sm:h-38.75 overflow-hidden border border-secondary">
                             <img
-                                src="./src/assets/Brandings/offive wall.png"
+                                src="/images/Brandings/offive-wall.png"
                                 alt="Another Mockup"
                                 className="w-full h-full object-cover"
                             />
@@ -112,7 +112,7 @@ function Brands() {
                     {/* Delivery Drone */}
                     <div className="sm:col-span-1 lg:col-span-3 h-75 sm:h-85 overflow-hidden border border-secondary">
                         <img
-                            src="./src/assets/Brandings/drone delivery.png"
+                            src="/images/Brandings/drone-delivery.png"
                             alt="Delivery Drone"
                             className="w-full h-full object-cover"
                         />
@@ -122,7 +122,7 @@ function Brands() {
                     {/* Delivery Packaging */}
                     <div className="sm:col-span-2 lg:col-span-3 h-75 sm:h-85 overflow-hidden border border-secondary">
                         <img
-                            src="./src/assets/Brandings/delivery box.png"
+                            src="/images/Brandings/delivery-box.png"
                             alt="Delivery Packaging"
                             className="w-full h-full object-cover"
                         />
