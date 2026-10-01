@@ -1,0 +1,22 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Karla:ital,wght@0,200..800;1,200..800&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Instrument+Serif:ital@0;1&family=Karla:ital,wght@0,200..800;1,200..800&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --background-image-paper-texture: url('/public/images/bg-paper.jpg');
+}
+
+@theme {
+    --font-karla: 'karla', sans-serif;
+    --font-serif: 'Instrument Serif' sans-serif;
+    --color-primary: #ffffff;
+    --color-secondary: #FD6703;
+
+}
+
+
+
+body {
+    font-family: "karla", sans-serif;
+    font-family: "instrument serif", sans-serif;
+}
