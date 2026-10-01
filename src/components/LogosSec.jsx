@@ -67,7 +67,7 @@ function LogosSec() {
           />
           <img
             className="md:absolute md:inset-0 w-fit h-fit object-contain object-center md:opacity-0 scale-100 transition-all duration-500 ease-in-out transform group-hover:opacity-100 group-hover:scale-110"
-            src="/images/Logos/Overdrive/Overdrive-COL.jpg"
+            src="/images/Logos/Overdrive/Overdrive-Col.jpg"
             alt="OverDrive Color"
           />
         </Link>
@@ -83,7 +83,7 @@ function LogosSec() {
           />
           <img
             className="md:absolute md:inset-0 w-fit h-fit object-contain object-center md:opacity-0 scale-100 transition-all duration-500 ease-in-out transform group-hover:opacity-100 group-hover:scale-110"
-            src="/images/Logos/Spectre/Spectre-Col.jpg"
+            src="/images/Logos/Spectre/spectre-Col.jpg"
             alt="Spectre Color"
           />
         </Link>
