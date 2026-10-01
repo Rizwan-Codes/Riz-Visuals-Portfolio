@@ -46,12 +46,12 @@ function LogosSec() {
         >
           <img
             className="hidden md:block object-contain w-fit h-fit object-center transition-all duration-500 ease-in-out transform group-hover:scale-110 group-hover:opacity-0"
-            src="./src/assets/Logos/KYRO AUDIOS/KABW.jpg"
+            src="/images/Logos/Kyro/KABW.jpg"
             alt="Kyro audios BW"
           />
           <img
             className="md:absolute md:inset-0 w-fit h-fit object-contain object-center md:opacity-0 scale-100 transition-all duration-500 ease-in-out transform group-hover:opacity-100 group-hover:scale-110"
-            src="./src/assets/Logos/KYRO AUDIOS/KA COL.jpg"
+            src="/images/Logos/Kyro/KA-COL.jpg"
             alt="kyro audios Color"
           />
         </Link>
@@ -62,12 +62,12 @@ function LogosSec() {
         >
           <img
             className="hidden md:block object-contain w-fit h-fit object-center transition-all duration-500 ease-in-out transform group-hover:scale-110 group-hover:opacity-0"
-            src="./src/assets/Logos/OverDrive/Overdrive BW.jpg"
+            src="/images/Logos/Overdrive/Overdrive-BW.jpg"
             alt="OverDrive BW"
           />
           <img
             className="md:absolute md:inset-0 w-fit h-fit object-contain object-center md:opacity-0 scale-100 transition-all duration-500 ease-in-out transform group-hover:opacity-100 group-hover:scale-110"
-            src="./src/assets/Logos/OverDrive/Overdrive Col.jpg"
+            src="/images/Logos/Overdrive/Overdrive-COL.jpg"
             alt="OverDrive Color"
           />
         </Link>
@@ -78,12 +78,12 @@ function LogosSec() {
         >
           <img
             className="hidden md:block object-contain w-fit h-fit object-center transition-all duration-500 ease-in-out transform group-hover:scale-110 group-hover:opacity-0"
-            src="./src/assets/Logos/Spectre/Spectre BW.jpg"
+            src="/images/Logos/Spectre/Spectre-BW.jpg"
             alt="Spectre BW"
           />
           <img
             className="md:absolute md:inset-0 w-fit h-fit object-contain object-center md:opacity-0 scale-100 transition-all duration-500 ease-in-out transform group-hover:opacity-100 group-hover:scale-110"
-            src="./src/assets/Logos/Spectre/Spectre Col.jpg"
+            src="/images/Logos/Spectre/Spectre-Col.jpg"
             alt="Spectre Color"
           />
         </Link>
