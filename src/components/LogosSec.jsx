@@ -1,6 +1,7 @@
 
 import { Link } from "react-router-dom";
 import { motion } from "motion/react";
+import logo1 from './src/assets/Logos/Venguard Apex/VA BW.jpg';
 
 function LogosSec() {
 
@@ -30,7 +31,8 @@ function LogosSec() {
         >
           <img
             className="hidden md:block object-contain w-fit h-fit object-center transition-all duration-500 ease-in-out transform md:group-hover:scale-110 group-hover:opacity-0"
-            src="./src/assets/Logos/Venguard Apex/VA BW.jpg"
+            // src="./src/assets/Logos/Venguard Apex/VA BW.jpg"
+            src={logo1}
             alt="Venguard Apex BW"
           />
           <img
