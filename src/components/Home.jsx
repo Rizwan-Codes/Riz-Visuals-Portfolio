@@ -6,6 +6,7 @@ import Seperator from "./workseperate"
 import SocialPosts from "./SocialPosts"
 import ThumbSec from "./Thumbnails"
 import Brands from "./Brandings"
+import Posters from "./Posters"
 
 function Home() {
     return (
@@ -17,6 +18,7 @@ function Home() {
             <SocialPosts />
             <ThumbSec />
             <Brands />
+            <Posters />
         </>
     )
 }
