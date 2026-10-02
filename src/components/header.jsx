@@ -35,7 +35,7 @@ function Navbar() {
     }, [])
 
     return (
-        <div className="bg-white/3">
+        <div className="sticky top-0 z-50 bg-black/60 backdrop-blur-md border-b border-white/10">
             <motion.nav
                 variants={style}
                 initial="hidden"
@@ -44,7 +44,7 @@ function Navbar() {
             >
                 {/* Logo */}
                 <div className="flex items-center justify-center gap-2">
-                    <div className="bg-transparent w-7 h-7 border border-primary/60 rounded-full">
+                    <div className="bg-transparent w-7 h-7 border border-secondary rounded-full">
                         <img src="/images/Logo.png" alt="" />
                     </div>
                     <span className="font-bold tracking-wider font-karla text-[18px] text-white">
@@ -66,7 +66,7 @@ function Navbar() {
                 </div>
 
                 {/* Desktop badge */}
-                <div className="hidden border border-black px-3 py-1 md:flex md:items-center md:gap-2 rounded-full bg-black">
+                <div className="hidden border border-secondary/70 px-3 py-1 md:flex md:items-center md:gap-2 rounded-full bg-black">
                     <div className="w-2 h-2 bg-orange-400 rounded-full animate-pulse"></div>
                     <span className="font-karla font-medium text-[16px] text-white">Open to Work</span>
                 </div>
