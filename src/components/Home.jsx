@@ -1,5 +1,4 @@
 
-import Navbar from "./header"
 import Hero from "./Hero"
 import LogosSec from "./LogosSec"
 import Seperator from "./workseperate"
@@ -11,7 +10,6 @@ import Posters from "./Posters"
 function Home() {
     return (
         <>
-            <Navbar />
             <Hero />
             <Seperator />
             <LogosSec />
@@ -23,4 +21,4 @@ function Home() {
     )
 }
 
-export default Home
+export default Home;

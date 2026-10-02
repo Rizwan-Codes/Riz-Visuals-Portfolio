@@ -1,10 +1,11 @@
 import Layout from "./components/Layout";
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from "react-router-dom";
-import Navbar from "./components/header";
+import Home from "./components/Home";
 function App() {
 
   const router = createBrowserRouter(createRoutesFromElements(
     <Route path="/" element={<Layout />}>
+      <Route index element={<Home />} />
       {/* <Route path="/" element={<Navbar />} /> */}
       {/* <Route path="/Work" element={<Work />} /> */}
       {/* <Route path="/Process" element={<Process />} /> */}
