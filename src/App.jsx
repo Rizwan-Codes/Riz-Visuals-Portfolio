@@ -2,6 +2,8 @@ import Layout from "./components/Layout";
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./pages/About";
+import Contact from "./pages/Contact";
+
 function App() {
 
   const router = createBrowserRouter(createRoutesFromElements(
@@ -9,6 +11,7 @@ function App() {
       <Route index element={<Home />} />
       
       <Route path="about" element={<About />} />
+      <Route path="contact" element={<Contact />} />
     
 
       {/* <Route path="/" element={<Navbar />} /> */}

@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "motion/react"
 const links = [
     { label: "Home", to: "/" },
     { label: "About", to: "/About" },
-    { label: "Contact", to: "/" },
+    { label: "Contact", to: "/Contact" },
 ]
 
 function Navbar() {

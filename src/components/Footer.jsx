@@ -1,15 +1,16 @@
-import { Link, NavLink } from "react-router-dom";
+
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { motion } from "motion/react";
 
-
-const EMAIL = "rizsvisuals@gmail.com"; 
+// ====== EDIT THESE ======
+const EMAIL = "your@email.com"; // TODO: apni real email
 const socials = [
     { label: "GitHub", icon: "ri-github-fill", href: "https://github.com/Rizwan-Codes" },
-    { label: "LinkedIn", icon: "ri-linkedin-fill", href: "#" },
-    { label: "Instagram", icon: "ri-instagram-line", href: "#" }, 
-    { label: "Behance", icon: "ri-behance-fill", href: "#" }, 
+    { label: "LinkedIn", icon: "ri-linkedin-fill", href: "#" }, // TODO: real link
+    { label: "Instagram", icon: "ri-instagram-line", href: "#" }, // TODO: real link
+    { label: "Behance", icon: "ri-behance-fill", href: "#" }, // TODO: real link
 ];
-
+// ========================
 
 const navLinks = [
     { label: "Work", to: "/Work" },
@@ -34,39 +35,46 @@ const fadeUp = {
 
 function Footer() {
     const year = new Date().getFullYear();
+    const { pathname } = useLocation();
+    const onContact = pathname.toLowerCase() === "/contact";
 
     return (
-        <footer className="mt-20 border-t border-white/10 bg-black/40 font-karla">
+        <footer className="mt-20 border-t border-white/10 bg-black/60 font-karla">
             <div className="max-w-7xl mx-auto px-4">
-                {/* CTA band */}
-                <motion.div
-                    {...fadeUp}
-                    className="flex flex-col items-center gap-6 py-16 text-center md:flex-row md:items-end md:justify-between md:text-start"
-                >
-                    <div>
-                        <span className="block text-[12px] md:text-[14px] font-bold tracking-widest text-white/70">
-                            HAVE A PROJECT IN MIND?
-                        </span>
-                        <h2 className="mt-2 text-5xl md:text-8xl font-extrabold text-primary leading-none">
-                            LET'S <span className="text-secondary">TALK</span>
-                        </h2>
-                        <p className="mt-4 text-[14px] md:text-xl text-primary/70 font-medium md:max-w-xl">
-                            Logo, branding, posters or thumbnails, tell me what you need and
-                            I'll turn it into a visual that stands out.
-                        </p>
-                    </div>
-
-                    <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }} className="w-full md:w-auto">
-                        <Link
-                            to="/Contact"
-                            className="block w-full md:w-auto px-6 py-3 border border-secondary bg-secondary text-black rounded-full text-center font-bold transition-all"
+                {!onContact && (
+                    <>
+                        {/* CTA band */}
+                        <motion.div
+                            {...fadeUp}
+                            className="flex flex-col items-center gap-6 py-16 text-center md:flex-row md:items-end md:justify-between md:text-start"
                         >
-                            Start a Project
-                        </Link>
-                    </motion.div>
-                </motion.div>
+                            <div>
+                                <span className="block text-[12px] md:text-[14px] font-bold tracking-widest text-white/70">
+                                    HAVE A PROJECT IN MIND?
+                                </span>
+                                <h2 className="mt-2 text-5xl md:text-8xl font-extrabold text-primary leading-none">
+                                    LET'S <span className="text-secondary">TALK</span>
+                                </h2>
+                                <p className="mt-4 text-[14px] md:text-xl text-primary/70 font-medium md:max-w-xl">
+                                    Logo, branding, posters or thumbnails, tell me what you need and
+                                    I'll turn it into a visual that stands out.
+                                </p>
+                            </div>
 
-                <div className="h-px w-full bg-primary/20" />
+                            <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }} className="w-full md:w-auto">
+                                <Link
+                                    to="/Contact"
+                                    className="block w-full md:w-auto px-6 py-3 border border-secondary bg-secondary text-black rounded-full text-center font-bold transition-all"
+                                >
+                                    Start a Project
+                                </Link>
+                            </motion.div>
+                        </motion.div>
+
+                        <div className="h-px w-full bg-primary/20" />
+
+                    </>
+                )}
 
                 {/* Main columns */}
                 <motion.div
