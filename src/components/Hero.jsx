@@ -82,12 +82,12 @@ export default function Hero() {
                             whileTap={{ scale: 0.97 }}
                             className="w-full md:w-auto"
                         >
-                            <NavLink
-                                to="/"
+                            <a
+                                href="#work-section"
                                 className="block w-full md:w-auto px-5 py-3 border border-secondary text-black bg-secondary rounded-full text-center font-karla font-bold transition-all"
                             >
                                 View My Work
-                            </NavLink>
+                            </a>
                         </motion.div>
 
                         <motion.div

@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 
 function Seperator() {
     return (
-        <div className="md:max-w-7xl md:m-auto">
+        <div id="work-section" className="md:max-w-7xl md:m-auto">
             <motion.div
                 initial={{
                     opacity: 0,
