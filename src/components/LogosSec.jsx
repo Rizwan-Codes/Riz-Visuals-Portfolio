@@ -24,8 +24,8 @@ function LogosSec() {
         className="grid grid-cols-2 gap-4 sm:grid-cols-4 md:grid-cols-4  px-5 md:p-0 mt-15">
 
         {/* Item 1*/}
-        <Link
-          to="/projects/venguard-apex"
+        <div
+          
           className="relative group block md:max-w-75 overflow-hidden cursor-pointer rounded-2xl border border-secondary"
         >
           <img
@@ -38,10 +38,10 @@ function LogosSec() {
             src="/images/Logos/Venguard-Apex/VA.jpg"
             alt="Venguard Apex Color"
           />
-        </Link>
+        </div>
          {/* Logo 2*/}
-        <Link
-          to="/projects/Kyro-Audios"
+        <div
+          
           className="relative group block md:max-w-75 overflow-hidden cursor-pointer rounded-2xl border border-secondary"
         >
           <img
@@ -54,10 +54,10 @@ function LogosSec() {
             src="/images/Logos/Kyro/KA-COL.jpg"
             alt="kyro audios Color"
           />
-        </Link>
+        </div>
          {/* Logo 3*/}
-        <Link
-          to="/projects/OverDrive"
+        <div
+          
           className="relative group block md:max-w-75 overflow-hidden cursor-pointer rounded-2xl border border-secondary"
         >
           <img
@@ -70,10 +70,10 @@ function LogosSec() {
             src="/images/Logos/Overdrive/Overdrive-Col.jpg"
             alt="OverDrive Color"
           />
-        </Link>
+        </div>
          {/* Logo 4*/}
-        <Link
-          to="/projects/Spectre"
+        <div
+         
           className="relative group block md:max-w-75 overflow-hidden cursor-pointer rounded-2xl border border-secondary"
         >
           <img
@@ -86,7 +86,7 @@ function LogosSec() {
             src="/images/Logos/Spectre/spectre-Col.jpg"
             alt="Spectre Color"
           />
-        </Link>
+        </div>
       </motion.div>
 
       <motion.div

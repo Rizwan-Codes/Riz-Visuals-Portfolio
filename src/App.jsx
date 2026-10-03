@@ -3,6 +3,7 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import Home from "./components/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Logos from "./pages/Logos";
 
 function App() {
 
@@ -12,13 +13,8 @@ function App() {
       
       <Route path="about" element={<About />} />
       <Route path="contact" element={<Contact />} />
-    
-
-      {/* <Route path="/" element={<Navbar />} /> */}
-      {/* <Route path="/Work" element={<Work />} /> */}
-      {/* <Route path="/Process" element={<Process />} /> */}
-      {/* <Route path="/About" element={<About />} /> */}
-      {/* <Route path="/Contact" element={<Contact />} /> */}
+      <Route path="logos" element={<Logos />} />
+  
 
     </Route>
   ))
