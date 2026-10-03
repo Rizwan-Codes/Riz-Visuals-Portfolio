@@ -13,7 +13,7 @@ const socials = [
 // ========================
 
 const navLinks = [
-    { label: "Work", to: "/Work" },
+    { label: "Home", to: "/" },
     { label: "About", to: "/About" },
     { label: "Contact", to: "/Contact" },
 ];

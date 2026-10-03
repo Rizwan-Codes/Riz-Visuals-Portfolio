@@ -96,7 +96,7 @@ export default function Hero() {
                             className="w-full md:w-auto"
                         >
                             <NavLink
-                                to="/"
+                                to="/Contact"
                                 className="block w-full md:w-auto px-4 py-3 border-2 border-secondary text-secondary rounded-full text-center font-karla font-bold hover:bg-secondary hover:text-black transition-colors"
                             >
                                 Let's Work Together

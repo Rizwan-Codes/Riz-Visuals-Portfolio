@@ -1,10 +1,9 @@
-
 import { useState, useEffect } from "react"
 import { NavLink } from "react-router-dom"
 import { motion, AnimatePresence } from "motion/react"
 
 const links = [
-    { label: "Home", to: "/" },
+    { label: "Work", to: "/" },
     { label: "About", to: "/About" },
     { label: "Contact", to: "/Contact" },
 ]
@@ -58,9 +57,23 @@ function Navbar() {
                         <NavLink
                             key={l.label}
                             to={l.to}
-                            className="font-medium text-primary/70 hover:text-secondary"
+                            end={l.to === "/"}
+                            className={({ isActive }) =>
+                                `relative py-1 font-medium transition-colors ${isActive ? "text-secondary" : "text-primary/70 hover:text-secondary"}`
+                            }
                         >
-                            {l.label}
+                            {({ isActive }) => (
+                                <>
+                                    {l.label}
+                                    {isActive && (
+                                        <motion.span
+                                            layoutId="nav-underline"
+                                            transition={{ type: "spring", stiffness: 500, damping: 35 }}
+                                            className="absolute -bottom-1 left-0 h-0.5 w-full rounded bg-secondary"
+                                        />
+                                    )}
+                                </>
+                            )}
                         </NavLink>
                     ))}
                 </div>
@@ -109,8 +122,11 @@ function Navbar() {
                                 <NavLink
                                     key={l.label}
                                     to={l.to}
+                                    end={l.to === "/"}
                                     onClick={() => setOpen(false)}
-                                    className="font-medium text-lg text-primary/70 hover:text-secondary"
+                                    className={({ isActive }) =>
+                                        `font-medium text-lg transition-colors border-l-2 pl-3 ${isActive ? "text-secondary border-secondary" : "text-primary/70 border-transparent hover:text-secondary"}`
+                                    }
                                 >
                                     {l.label}
                                 </NavLink>
