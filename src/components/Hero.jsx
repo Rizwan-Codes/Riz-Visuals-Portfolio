@@ -38,7 +38,7 @@ export default function Hero() {
                         variants={itemVariants}
                         className="font-karla tracking-widest font-bold text-white/70 block text-center text-[12px] md:text-[16px] md:text-start"
                     >
-                        RIZ VISUALS - EST. 2026
+                        RIZ VISUALS - EST. 2025
                     </motion.span>
 
                     <motion.span

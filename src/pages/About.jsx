@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 const stats = [
     { value: "20+", label: "Client Orders" },
     { value: "5", label: "Design Categories" },
-    { value: "2026", label: "Riz Visuals Est." },
+    { value: "2025", label: "Riz Visuals Est." },
 ];
 
 const services = [

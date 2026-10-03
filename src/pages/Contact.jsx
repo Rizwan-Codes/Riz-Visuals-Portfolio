@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { motion } from "motion/react";
 
-// ====== EDIT THESE ======
-const EMAIL = "your@email.com"; // TODO: real email
-const WHATSAPP = "923001234567"; // TODO: number in international format, no + or spaces
-const LOCATION = "Punjab, Pakistan";
+
+const EMAIL = "rizsvisuals@gmail.com"; 
+const WHATSAPP = "923284057164"; 
+const LOCATION = "Lahore, Punjab, Pakistan";
 
 // Form delivery: paste your Formspree endpoint (https://formspree.io/f/xxxx).
 // If left empty, the form falls back to opening the visitor's email app (mailto).
@@ -12,9 +12,9 @@ const FORM_ENDPOINT = "";
 
 const socials = [
     { label: "GitHub", icon: "ri-github-fill", href: "https://github.com/Rizwan-Codes" },
-    { label: "LinkedIn", icon: "ri-linkedin-fill", href: "#" }, // TODO
-    { label: "Instagram", icon: "ri-instagram-line", href: "#" }, // TODO
-    { label: "Behance", icon: "ri-behance-fill", href: "#" }, // TODO
+    { label: "LinkedIn", icon: "ri-linkedin-fill", href: "https://www.linkedin.com/in/rizwan-ali-web-dev/" }, // TODO
+    { label: "Instagram", icon: "ri-instagram-line", href: "https://www.instagram.com/riz_visuals/" }, // TODO
+    { label: "Behance", icon: "ri-behance-fill", href: "https://www.behance.net/gallery/234767751/Portfolio" }, // TODO
 ];
 
 const projectTypes = ["Logo Design", "Branding", "Social Posts", "Thumbnails", "Posters", "Something else"];
@@ -25,7 +25,7 @@ const tips = [
     "Your deadline, if you have one",
     "Any references or styles you like",
 ];
-// ========================
+
 
 const fadeUp = {
     initial: { opacity: 0, y: 30 },

@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom"
 import { motion, AnimatePresence } from "motion/react"
 
 const links = [
-    { label: "Work", to: "/" },
+    { label: "Home", to: "/" },
     { label: "About", to: "/About" },
     { label: "Contact", to: "/Contact" },
 ]

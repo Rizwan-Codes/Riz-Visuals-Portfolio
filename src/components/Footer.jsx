@@ -2,15 +2,15 @@
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { motion } from "motion/react";
 
-// ====== EDIT THESE ======
-const EMAIL = "your@email.com"; // TODO: apni real email
+
+const EMAIL = "rizsvisuals@gmail.com";
 const socials = [
     { label: "GitHub", icon: "ri-github-fill", href: "https://github.com/Rizwan-Codes" },
-    { label: "LinkedIn", icon: "ri-linkedin-fill", href: "#" }, // TODO: real link
-    { label: "Instagram", icon: "ri-instagram-line", href: "#" }, // TODO: real link
-    { label: "Behance", icon: "ri-behance-fill", href: "#" }, // TODO: real link
+    { label: "LinkedIn", icon: "ri-linkedin-fill", href: "https://www.linkedin.com/in/rizwan-ali-web-dev/" }, 
+    { label: "Instagram", icon: "ri-instagram-line", href: "https://www.instagram.com/riz_visuals/" }, 
+    { label: "Behance", icon: "ri-behance-fill", href: "https://www.behance.net/gallery/234767751/Portfolio" },
 ];
-// ========================
+
 
 const navLinks = [
     { label: "Home", to: "/" },
