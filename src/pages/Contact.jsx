@@ -8,7 +8,7 @@ const LOCATION = "Lahore, Punjab, Pakistan";
 
 // Form delivery: paste your Formspree endpoint (https://formspree.io/f/xxxx).
 // If left empty, the form falls back to opening the visitor's email app (mailto).
-const FORM_ENDPOINT = "";
+const FORM_ENDPOINT = "https://formspree.io/f/xzeznzlp";
 
 const socials = [
     { label: "GitHub", icon: "ri-github-fill", href: "https://github.com/Rizwan-Codes" },
