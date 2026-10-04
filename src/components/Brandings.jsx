@@ -15,7 +15,7 @@ function Brands() {
                 transition={{ duration: 0.5, ease: "easeInOut" }}
                 className="font-karla text-center md:text-start">
                 <h1 className="text-5xl md:text-8xl font-extrabold text-secondary p-0">BRANDING <span className="text-primary">DESIGN</span></h1>
-                <p className="text-[14px] mt-4 md:text-[18px] px-4 md:p-0 text-primary/80 font-medium md:w-[70%]">From high-click-through-rate YouTube covers to engaging video thumbnails, I design custom visuals built to grab attention, drive clicks, and make your content stand out in a crowded feed.</p>
+                <p className="text-[14px] mt-4 md:text-[18px] px-4 md:p-0 text-primary/80 font-medium md:w-[70%]">From cohesive color palettes to comprehensive visual identities, I craft full brand design systems built to elevate your business and build trust.</p>
             </motion.div>
 
             <motion.div

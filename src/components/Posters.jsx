@@ -14,7 +14,7 @@ function Posters() {
                 transition={{ duration: 0.5, ease: "easeInOut" }}
                 className="font-karla text-center md:text-start">
                 <h1 className="text-5xl md:text-8xl font-extrabold text-secondary p-0">POSTER <span className="text-primary">DESIGN</span></h1>
-                <p className="text-[14px] mt-4 md:text-[18px] px-4 md:p-0 text-primary/80 font-medium md:w-[80%]">From eye-catching feed graphics to high-converting promotional banners, I design custom social media posts that capture attention, engage your audience, and elevate your brand presence across every platform</p>
+                <p className="text-[14px] mt-4 md:text-[18px] px-4 md:p-0 text-primary/80 font-medium md:w-[80%]">From bold event posters to striking promotional flyers, I create high-impact print and digital visuals engineered to deliver your message seamlessly.</p>
             </motion.div>
             <motion.div
                 initial={{ opacity: 0, y: 30 }}
