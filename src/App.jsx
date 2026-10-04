@@ -7,6 +7,7 @@ import Logos from "./pages/Logos";
 import Posts from "./pages/Posts";
 import Thumbnails from "./pages/Thumbnails";
 import BrandingPage from "./pages/Brandings";
+import PostersPage from "./pages/Posters";
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <Route path="posts" element={<Posts />} />
       <Route path="thumbnails" element={<Thumbnails />} />
       <Route path="brandings" element={<BrandingPage />} />
+      <Route path="poster" element={<PostersPage />} />
 
     </Route>
   ))

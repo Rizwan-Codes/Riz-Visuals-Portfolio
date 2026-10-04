@@ -47,7 +47,7 @@ function Posters() {
                 transition={{ duration: 0.5, ease: "easeInOut" }}
                 className="text-center mt-10 text-2xl md:text-xl md:text-end md:mt-3 md:mr-2">
                 <Link
-                    to="/Logos"
+                    to="/Poster"
                     className="font-karla text-white font-medium m-auto group"
                 >
                     <span className="group-hover:text-secondary">See More</span>

@@ -22,8 +22,8 @@ const workLinks = [
     { label: "Logo Design", to: "/Logos" },
     { label: "Social Posts", to: "/Posts" },
     { label: "Thumbnails", to: "/Thumbnails" },
-    { label: "Posters", to: "/Posters" },
-    { label: "Branding", to: "/Branding" },
+    { label: "Posters", to: "/Poster" },
+    { label: "Branding", to: "/Brandings" },
 ];
 
 const fadeUp = {

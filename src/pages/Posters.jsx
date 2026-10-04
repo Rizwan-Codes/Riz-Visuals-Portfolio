@@ -2,20 +2,20 @@ import { useState, useEffect, useCallback } from "react";
 import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "motion/react";
 
-// ====== ADD NEW THUMBNAILS HERE (just the image path) ======
-const thumbnails = [
-    "/images/Thumbnails/thumbnail-1.png",
-    "/images/Thumbnails/thumbnail-2.png",
-    "/images/Thumbnails/thumbnail-3.png",
-    "/images/Thumbnails/thumbnail-4.png",
-    "/images/Thumbnails/thumbnail-5.png",
+// ====== ADD NEW POSTERS HERE (just the image path) ======
+const posters = [
+    "/images/Posters/poster-1.jpeg",
+    "/images/Posters/poster-2.jpeg",
+    "/images/Posters/poster-3.png",
+    "/images/Posters/poster-4.png",
+    "/images/Posters/poster-5.png",
 ];
 
 // Other work categories shown at the bottom
 const otherWork = [
     { label: "Logo Design", to: "/Logos", icon: "ri-pen-nib-line" },
     { label: "Branding", to: "/Branding", icon: "ri-vip-diamond-line" },
-    { label: "Posters", to: "/Posters", icon: "ri-image-line" },
+    { label: "Thumbnails", to: "/Thumbnails", icon: "ri-youtube-line" },
     { label: "Social Posts", to: "/Posts", icon: "ri-instagram-line" },
 ];
 // ======================================================
@@ -29,16 +29,16 @@ const fadeUp = {
 
 const pad = (n) => String(n).padStart(2, "0");
 
-function Thumbnails() {
+function PostersPage() {
     const [selected, setSelected] = useState(null); // index of open post, or null
 
     const close = useCallback(() => setSelected(null), []);
     const prev = useCallback(
-        () => setSelected((i) => (i === null ? i : (i - 1 + thumbnails.length) % thumbnails.length)),
+        () => setSelected((i) => (i === null ? i : (i - 1 + posters.length) % posters.length)),
         []
     );
     const next = useCallback(
-        () => setSelected((i) => (i === null ? i : (i + 1) % thumbnails.length)),
+        () => setSelected((i) => (i === null ? i : (i + 1) % posters.length)),
         []
     );
 
@@ -77,20 +77,19 @@ function Thumbnails() {
                     </Link>
 
                     <h1 className="mt-4 text-5xl md:text-8xl font-extrabold text-secondary leading-none">
-                        THUMBNAILS <span className="text-primary">DESIGN</span>
+                        POSTER <span className="text-primary">DESIGN</span>
                     </h1>
                     <p className="mt-4 text-[14px] md:text-[18px] px-4 md:px-0 text-primary/80 font-medium md:w-[70%]">
-                        From high-click-through-rate YouTube covers to engaging video thumbnails, I
-                        design custom visuals built to grab attention, drive clicks, and make your
-                        content stand out in a crowded feed.
+                        I design bold, custom posters with strong layouts and typography that
+                        grab attention and get your message across at a glance.
                     </p>
 
                     <div className="mt-6 flex flex-wrap items-center justify-center gap-3 md:justify-start">
                         <span className="rounded-full border border-secondary/70 bg-black px-4 py-1.5 text-[13px] font-medium text-white">
-                            {pad(thumbnails.length)} Thumbnails
+                            {pad(posters.length)} Posters
                         </span>
                         <span className="rounded-full border border-white/20 bg-black/40 px-4 py-1.5 text-[13px] font-medium text-primary/80">
-                            YouTube &amp; video covers
+                            Portrait format
                         </span>
                     </div>
                 </motion.div>
@@ -98,28 +97,27 @@ function Thumbnails() {
 
             {/* ---------- Gallery ---------- */}
             <section className="max-w-7xl mx-auto px-4 mt-14">
-                <div className="grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-6">
-                    {thumbnails.map((src, i) => (
+                <div className="flex flex-wrap justify-center gap-4 md:gap-6">
+                    {posters.map((src, i) => (
                         <motion.div
                             key={src}
                             initial={{ opacity: 0, y: 30 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true, amount: 0.15 }}
-                            transition={{ duration: 0.5, delay: (i % 2) * 0.08, ease: "easeInOut" }}
-                            // With an odd count, the first thumbnail sits centred on top so the rest fill complete rows
-                            className={i === 0 && thumbnails.length % 2 === 1 ? "md:col-span-2 md:w-[calc(50%-0.75rem)] md:justify-self-center" : ""}
+                            transition={{ duration: 0.5, delay: (i % 3) * 0.08, ease: "easeInOut" }}
+                            className="w-[calc(50%-0.5rem)] md:w-[calc(33.333%-1rem)]"
                         >
                             <button
                                 type="button"
                                 onClick={() => setSelected(i)}
-                                aria-label={`View thumbnail ${i + 1}`}
+                                aria-label={`View poster ${i + 1}`}
                                 className="group relative block w-full cursor-pointer overflow-hidden rounded-2xl border border-secondary"
                             >
                                 <img
                                     src={src}
-                                    alt={`Thumbnail design ${i + 1}`}
+                                    alt={`Poster design ${i + 1}`}
                                     loading="lazy"
-                                    className="aspect-video w-full object-cover transition-all duration-500 ease-in-out group-hover:scale-105"
+                                    className="aspect-9/16 w-full object-cover transition-all duration-500 ease-in-out group-hover:scale-105"
                                 />
                                 <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-black/70 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
                                 <span className="absolute bottom-3 left-3 text-[13px] font-bold tracking-widest text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
@@ -134,7 +132,7 @@ function Thumbnails() {
                 </div>
 
                 <motion.p {...fadeUp} className="mt-6 text-center text-[13px] font-medium text-primary/50 md:text-start">
-                    Click any thumbnail to view it full size.
+                    Click any poster to view it full size.
                 </motion.p>
             </section>
 
@@ -187,7 +185,7 @@ function Thumbnails() {
                         onClick={close}
                         role="dialog"
                         aria-modal="true"
-                        aria-label={`Thumbnail ${selected + 1}`}
+                        aria-label={`Poster ${selected + 1}`}
                         className="fixed inset-0 z-100 flex items-center justify-center bg-black/90 p-4 backdrop-blur-sm"
                     >
                         <motion.div
@@ -200,7 +198,7 @@ function Thumbnails() {
                         >
                             <div className="flex w-full items-center justify-between">
                                 <span className="text-[13px] font-bold tracking-widest text-secondary">
-                                    {pad(selected + 1)} / {pad(thumbnails.length)}
+                                    {pad(selected + 1)} / {pad(posters.length)}
                                 </span>
                                 <button
                                     type="button"
@@ -219,13 +217,13 @@ function Thumbnails() {
                                     animate={{ opacity: 1, x: 0 }}
                                     exit={{ opacity: 0, x: -20 }}
                                     transition={{ duration: 0.2 }}
-                                    src={thumbnails[selected]}
-                                    alt={`Thumbnail design ${selected + 1}`}
+                                    src={posters[selected]}
+                                    alt={`Poster design ${selected + 1}`}
                                     className="max-h-[70vh] w-auto max-w-full rounded-2xl border border-secondary object-contain"
                                 />
                             </AnimatePresence>
 
-                            {thumbnails.length > 1 && (
+                            {posters.length > 1 && (
                                 <div className="flex w-full items-center justify-between">
                                     <button
                                         type="button"
@@ -251,4 +249,4 @@ function Thumbnails() {
     );
 }
 
-export default Thumbnails;
+export default PostersPage;
