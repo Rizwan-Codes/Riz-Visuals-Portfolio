@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import Logos from "./pages/Logos";
 import Posts from "./pages/Posts";
 import Thumbnails from "./pages/Thumbnails";
+import BrandingPage from "./pages/Brandings";
 
 function App() {
 
@@ -18,7 +19,7 @@ function App() {
       <Route path="logos" element={<Logos />} />
       <Route path="posts" element={<Posts />} />
       <Route path="thumbnails" element={<Thumbnails />} />
-  
+      <Route path="brandings" element={<BrandingPage />} />
 
     </Route>
   ))
