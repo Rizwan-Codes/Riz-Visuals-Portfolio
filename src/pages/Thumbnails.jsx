@@ -9,6 +9,9 @@ const thumbnails = [
     "/images/Thumbnails/thumbnail-3.png",
     "/images/Thumbnails/thumbnail-4.png",
     "/images/Thumbnails/thumbnail-5.png",
+    "/images/Thumbnails/thumbnail-6.png",
+    "/images/Thumbnails/thumbnail-7.png",
+    "/images/Thumbnails/thumbnail-8.png",
 ];
 
 // Other work categories shown at the bottom
