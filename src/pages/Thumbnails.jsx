@@ -12,6 +12,8 @@ const thumbnails = [
     "/images/Thumbnails/thumbnail-6.png",
     "/images/Thumbnails/thumbnail-7.png",
     "/images/Thumbnails/thumbnail-8.png",
+    "/images/Thumbnails/thumbnail-9.png",
+    "/images/Thumbnails/thumbnail-10.png",
 ];
 
 // Other work categories shown at the bottom
