@@ -39,6 +39,9 @@ function ThumbSec() {
                 <div className="group overflow-hidden border border-secondary rounded-2xl">
                     <img className="w-fit h-fit object-contain transition-all duration-500 ease-in-out transform  group-hover:scale-105" src="/images/Thumbnails/thumbnail-5.png" alt="" />
                 </div>
+                <div className="group overflow-hidden border border-secondary rounded-2xl">
+                    <img className="w-fit h-fit object-contain transition-all duration-500 ease-in-out transform  group-hover:scale-105" src="/images/Thumbnails/thumbnail-6.png" alt="" />
+                </div>
             </motion.div>
             <motion.div
                 initial={{ opacity: 0, y: -5 }}
