@@ -42,7 +42,7 @@ const applications = [
 
 const otherWork = [
     { label: "Logo Design", to: "/Logos", icon: "ri-pen-nib-line" },
-    { label: "Posters", to: "/Posters", icon: "ri-image-line" },
+    { label: "Posters", to: "/Poster", icon: "ri-image-line" },
     { label: "Thumbnails", to: "/Thumbnails", icon: "ri-youtube-line" },
     { label: "Social Posts", to: "/Posts", icon: "ri-instagram-line" },
 ];

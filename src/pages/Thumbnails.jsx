@@ -19,8 +19,8 @@ const thumbnails = [
 // Other work categories shown at the bottom
 const otherWork = [
     { label: "Logo Design", to: "/Logos", icon: "ri-pen-nib-line" },
-    { label: "Branding", to: "/Branding", icon: "ri-vip-diamond-line" },
-    { label: "Posters", to: "/Posters", icon: "ri-image-line" },
+    { label: "Branding", to: "/Brandings", icon: "ri-vip-diamond-line" },
+    { label: "Posters", to: "/Poster", icon: "ri-image-line" },
     { label: "Social Posts", to: "/Posts", icon: "ri-instagram-line" },
 ];
 // ======================================================

@@ -28,8 +28,8 @@ const logos = [
 
 // Other work categories shown at the bottom (routes are the ones used in the Footer)
 const otherWork = [
-    { label: "Branding", to: "/Branding", icon: "ri-vip-diamond-line" },
-    { label: "Posters", to: "/Posters", icon: "ri-image-line" },
+    { label: "Branding", to: "/Brandings", icon: "ri-vip-diamond-line" },
+    { label: "Posters", to: "/Poster", icon: "ri-image-line" },
     { label: "Thumbnails", to: "/Thumbnails", icon: "ri-youtube-line" },
     { label: "Social Posts", to: "/Posts", icon: "ri-instagram-line" },
 ];
