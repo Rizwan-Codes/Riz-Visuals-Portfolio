@@ -9,6 +9,10 @@ const posters = [
     "/images/Posters/poster-3.png",
     "/images/Posters/poster-4.png",
     "/images/Posters/poster-5.png",
+    "/images/Posters/poster-6.png",
+    "/images/Posters/poster-7.png",
+    "/images/Posters/poster-8.png",
+    "/images/Posters/poster-9.png",
 ];
 
 // Other work categories shown at the bottom
