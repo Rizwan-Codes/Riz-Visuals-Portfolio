@@ -167,7 +167,7 @@ function Posts() {
                                     </div>
                                     <span className="text-[15px] md:text-lg font-bold text-primary">{w.label}</span>
                                 </div>
-                                <i className="ri-arrow-right-up-line text-xl text-primary/50 transition-colors group-hover:text-secondary" />
+                                <i className="ri-arrow-right-up-line hidden md:block text-xl text-primary/50 transition-colors group-hover:text-secondary" />
                             </Link>
                         </motion.div>
                     ))}

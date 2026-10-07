@@ -82,7 +82,7 @@ export const brands = [
 
 const otherWork = [
     { label: "Logo Design", to: "/Logos", icon: "ri-pen-nib-line" },
-    { label: "Posters", to: "/Posters", icon: "ri-image-line" },
+    { label: "Posters", to: "/Poster", icon: "ri-image-line" },
     { label: "Thumbnails", to: "/Thumbnails", icon: "ri-youtube-line" },
     { label: "Social Posts", to: "/Posts", icon: "ri-instagram-line" },
 ];
@@ -510,7 +510,7 @@ function BrandingPage() {
                                     </div>
                                     <span className="text-[15px] md:text-lg font-bold text-primary">{w.label}</span>
                                 </div>
-                                <i className="ri-arrow-right-up-line text-xl text-primary/50 transition-colors group-hover:text-secondary" />
+                                <i className="ri-arrow-right-up-line hidden md:block text-xl text-primary/50 transition-colors group-hover:text-secondary" />
                             </Link>
                         </motion.div>
                     ))}
