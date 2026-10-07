@@ -25,19 +25,19 @@ function SocialPosts() {
                 className="w-full grid grid-cols-2 gap-7 md:grid-cols-5 mt-15 px-4 md:p-0">
 
                 <div className="group overflow-hidden border border-secondary rounded-2xl">
-                    <img className="w-fit h-fit object-contain transition-all duration-500 ease-in-out transform  group-hover:scale-105" src="/images/Posts/post-1.png" alt="" />
+                    <img className="w-fit h-fit object-contain transition-all duration-500 ease-in-out transform  group-hover:scale-105" src="/images/Posts/post-1.webp" alt="" />
                 </div>
                 <div className="group overflow-hidden border border-secondary rounded-2xl">
-                    <img className="w-fit h-fit object-contain transition-all duration-500 ease-in-out transform  group-hover:scale-105" src="/images/Posts/post-2.png" alt="" />
+                    <img className="w-fit h-fit object-contain transition-all duration-500 ease-in-out transform  group-hover:scale-105" src="/images/Posts/post-2.webp" alt="" />
                 </div>
                 <div className="group overflow-hidden border border-secondary rounded-2xl">
-                    <img className="w-fit h-fit object-contain transition-all duration-500 ease-in-out transform  group-hover:scale-105" src="/images/Posts/post-3.png" alt="" />
+                    <img className="w-fit h-fit object-contain transition-all duration-500 ease-in-out transform  group-hover:scale-105" src="/images/Posts/post-3.webp" alt="" />
                 </div>
                 <div className="group overflow-hidden border border-secondary rounded-2xl">
-                    <img className="w-fit h-fit object-contain transition-all duration-500 ease-in-out transform  group-hover:scale-105" src="/images/Posts/post-4.png" alt="" />
+                    <img className="w-fit h-fit object-contain transition-all duration-500 ease-in-out transform  group-hover:scale-105" src="/images/Posts/post-4.webp" alt="" />
                 </div>
                 <div className="group overflow-hidden border border-secondary rounded-2xl">
-                    <img className="w-fit h-fit object-contain transition-all duration-500 ease-in-out transform  group-hover:scale-105" src="/images/Posts/post-5.png" alt="" />
+                    <img className="w-fit h-fit object-contain transition-all duration-500 ease-in-out transform  group-hover:scale-105" src="/images/Posts/post-5.webp" alt="" />
                 </div>
             </motion.div>
             <motion.div
