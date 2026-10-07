@@ -78,7 +78,7 @@ export const brands = [
 
 ];
 
-
+//fully functioned data over the night and all the other things 
 
 const otherWork = [
     { label: "Logo Design", to: "/Logos", icon: "ri-pen-nib-line" },
@@ -118,10 +118,7 @@ function SectionTitle({ no, first, second }) {
     );
 }
 
-/* ------------------------------------------------------------------ */
-/* One brand's full case study. Rendered with key={brand.id}, so its   */
-/* lightbox / copy state resets automatically when the brand changes.  */
-/* ------------------------------------------------------------------ */
+
 function CaseStudy({ brand }) {
     const apps = brand.applications ?? [];
     const logos = brand.logos ?? [];
@@ -413,9 +410,7 @@ function CaseStudy({ brand }) {
     );
 }
 
-/* ------------------------------------------------------------------ */
-/* Page                                                                */
-/* ------------------------------------------------------------------ */
+
 function BrandingPage() {
     const [params, setParams] = useSearchParams();
     const brand = brands.find((b) => b.id === params.get("brand")) ?? brands[0];
@@ -435,7 +430,7 @@ function BrandingPage() {
                         to="/"
                         className="inline-flex items-center gap-2 text-[13px] font-bold tracking-widest text-white/70 transition-colors hover:text-secondary"
                     >
-                        <i className="ri-arrow-left-line" /> BACK TO WORK
+                        <i className="ri-arrow-left-line" /> BACK TO HOME
                     </Link>
 
                     <h1 className="mt-4 text-5xl md:text-8xl font-extrabold text-secondary leading-none">
