@@ -24,6 +24,27 @@ const logos = [
         bw: "/images/Logos/Spectre/Spectre-BW.jpg",
         color: "/images/Logos/Spectre/spectre-Col.jpg",
     },
+     {
+        name: "AR Perfumes",
+        bw: "/images/Logos/AR/ARW.png",
+        color: "/images/Logos/AR/ARB.png",
+    },
+     {
+        name: "Auralis",
+        bw: "/images/Logos/Auralis/Auralis-B.jpg",
+        color: "/images/Logos/Auralis/Auralis-C.png",
+    },
+     {
+        name: "Vaynex",
+        bw: "/images/Logos/Vaynex/vaynex-b.png",
+        color: "/images/Logos/Vaynex/vaynex-c.jpg",
+    },
+     {
+        name: "Startos",
+        bw: "/images/Logos/Startos/Startos-b.png",
+        color: "/images/Logos/Startos/Startos-c.png",
+    },
+
 ];
 
 // Other work categories shown at the bottom (routes are the ones used in the Footer)
