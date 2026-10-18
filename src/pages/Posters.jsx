@@ -4,15 +4,15 @@ import { motion, AnimatePresence } from "motion/react";
 
 // ====== ADD NEW POSTERS HERE (just the image path) ======
 const posters = [
-    "/images/Posters/poster-1.jpeg",
-    "/images/Posters/poster-2.jpeg",
-    "/images/Posters/poster-3.png",
-    "/images/Posters/poster-4.png",
-    "/images/Posters/poster-5.png",
-    "/images/Posters/poster-6.png",
-    "/images/Posters/poster-7.png",
-    "/images/Posters/poster-8.png",
-    "/images/Posters/poster-9.png",
+    "/images/Posters/poster-1.webp",
+    "/images/Posters/poster-2.webp",
+    "/images/Posters/poster-3.webp",
+    "/images/Posters/poster-4.webp",
+    "/images/Posters/poster-5.webp",
+    "/images/Posters/poster-6.webp",
+    "/images/Posters/poster-7.webp",
+    "/images/Posters/poster-8.webp",
+    "/images/Posters/poster-9.webp",
 ];
 
 // Other work categories shown at the bottom
