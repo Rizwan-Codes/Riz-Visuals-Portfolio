@@ -45,7 +45,6 @@ function Contact() {
         e.preventDefault();
         if (status === "sending") return;
 
-        // Fallback: no endpoint configured -> open email app
         if (!FORM_ENDPOINT) {
             const subject = encodeURIComponent(`${form.type} inquiry from ${form.name}`);
             const body = encodeURIComponent(`${form.message}\n\n${form.name}\n${form.email}`);

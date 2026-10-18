@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 import { NavLink } from "react-router-dom";
 
 export default function Hero() {
-    // Container variant for staggering children animations
+ 
     const containerVariants = {
         hidden: { opacity: 0 },
         visible: {
@@ -15,7 +15,7 @@ export default function Hero() {
         },
     };
 
-    // Item variant for individual text elements
+   
     const itemVariants = {
         hidden: { opacity: 0, y: 25 },
         visible: {

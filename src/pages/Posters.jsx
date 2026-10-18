@@ -2,7 +2,6 @@ import { useState, useEffect, useCallback } from "react";
 import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "motion/react";
 
-// ====== ADD NEW POSTERS HERE (just the image path) ======
 const posters = [
     "/images/Posters/poster-1.webp",
     "/images/Posters/poster-2.webp",
@@ -15,14 +14,12 @@ const posters = [
     "/images/Posters/poster-9.webp",
 ];
 
-// Other work categories shown at the bottom
 const otherWork = [
     { label: "Logo Design", to: "/Logos", icon: "ri-pen-nib-line" },
     { label: "Branding", to: "/Brandings", icon: "ri-vip-diamond-line" },
     { label: "Thumbnails", to: "/Thumbnails", icon: "ri-youtube-line" },
     { label: "Social Posts", to: "/Posts", icon: "ri-instagram-line" },
 ];
-// ======================================================
 
 const fadeUp = {
     initial: { opacity: 0, y: 30 },
@@ -46,7 +43,6 @@ function PostersPage() {
         []
     );
 
-    // Keyboard controls + lock page scroll while lightbox is open
     useEffect(() => {
         if (selected === null) return;
         const onKey = (e) => {

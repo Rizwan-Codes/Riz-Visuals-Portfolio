@@ -55,7 +55,7 @@ function SectionTitle({ first, second, sub }) {
 function About() {
     return (
         <div className="font-karla">
-            {/* ---------- Intro (story-focused, differs from Hero) ---------- */}
+            {/*  Intro  */}
             <section className="max-w-7xl mx-auto px-4 pt-10 md:pt-20">
                 <div className="flex flex-col items-center gap-10 md:flex-row md:items-center md:gap-16">
                     {/* Framed photo card (left) */}
@@ -95,7 +95,6 @@ function About() {
                             THE DESIGNER BEHIND <span className="text-secondary">RIZ VISUALS</span>
                         </h1>
 
-                        {/* TODO: yahan apni personal story likho (kab/kyun design shuru kia, kin clients ke saath kaam kia) */}
                         <p className="mt-6 text-[14px] md:text-xl text-primary/70">
                             Riz Visuals is my freelance design studio, where I work with clients on
                             logos, branding, posters, social posts and thumbnails.
@@ -125,7 +124,7 @@ function About() {
                 </div>
             </section>
 
-            {/* ---------- Stats ---------- */}
+            {/* Stats */}
             <section className="max-w-7xl mx-auto px-4 mt-20">
                 <motion.div
                     {...fadeUp}
@@ -140,7 +139,7 @@ function About() {
                 </motion.div>
             </section>
 
-            {/* ---------- What I Do ---------- */}
+            {/* What I Do  */}
             <section className="max-w-7xl mx-auto px-4 mt-24">
                 <SectionTitle
                     first="WHAT I"
@@ -167,7 +166,7 @@ function About() {
                 </div>
             </section>
 
-            {/* ---------- Process ---------- */}
+            {/*  Process - */}
             <section className="max-w-7xl mx-auto px-4 mt-24">
                 <SectionTitle
                     first="HOW I"
@@ -193,7 +192,7 @@ function About() {
                 </div>
             </section>
 
-            {/* ---------- Tools + Background ---------- */}
+            {/*  Tools + Background */}
             <section className="max-w-7xl mx-auto px-4 mt-24">
                 <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
                     <div>
@@ -243,7 +242,7 @@ function About() {
                 </div>
             </section>
 
-            {/* ---------- Closing line ---------- */}
+            {/*  Closing line  */}
             <section className="max-w-7xl mx-auto px-4 mt-24">
                 <motion.div
                     {...fadeUp}

@@ -43,7 +43,6 @@ function Posts() {
         []
     );
 
-    // Keyboard controls + lock page scroll while lightbox is open
     useEffect(() => {
         if (selected === null) return;
         const onKey = (e) => {

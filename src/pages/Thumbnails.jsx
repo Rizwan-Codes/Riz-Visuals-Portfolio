@@ -2,7 +2,6 @@ import { useState, useEffect, useCallback } from "react";
 import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "motion/react";
 
-// ====== ADD NEW THUMBNAILS HERE (just the image path) ======
 const thumbnails = [
     "/images/Thumbnails/thumbnail-1.webp",
     "/images/Thumbnails/thumbnail-2.webp",
@@ -16,14 +15,12 @@ const thumbnails = [
     "/images/Thumbnails/thumbnail-10.webp",
 ];
 
-// Other work categories shown at the bottom
 const otherWork = [
     { label: "Logo Design", to: "/Logos", icon: "ri-pen-nib-line" },
     { label: "Branding", to: "/Brandings", icon: "ri-vip-diamond-line" },
     { label: "Posters", to: "/Poster", icon: "ri-image-line" },
     { label: "Social Posts", to: "/Posts", icon: "ri-instagram-line" },
 ];
-// ======================================================
 
 const fadeUp = {
     initial: { opacity: 0, y: 30 },
@@ -35,7 +32,7 @@ const fadeUp = {
 const pad = (n) => String(n).padStart(2, "0");
 
 function Thumbnails() {
-    const [selected, setSelected] = useState(null); // index of open post, or null
+    const [selected, setSelected] = useState(null); 
 
     const close = useCallback(() => setSelected(null), []);
     const prev = useCallback(

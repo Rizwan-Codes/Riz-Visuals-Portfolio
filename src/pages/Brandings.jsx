@@ -20,7 +20,7 @@ export const brands = [
             "Packaging",
             "Environment mockups",
         ],
-        // weight = how much width a logo gets on desktop (default 1)
+        
         logos: [
             { src: "/images/Brandings/MAIN-LOGO.webp", label: "Primary Logo", weight: 2 },
             { src: "/images/Brandings/horizontal-design.webp", label: "Horizontal Logo", weight: 3 },
@@ -43,7 +43,6 @@ export const brands = [
     {
         id: "kavaro", 
         name: "KAVARO",
-        // TODO: apni 2-3 lines likho: brief kya tha, brand kis ke liye hai, concept/idea kya thi
         summary:
             "Kavaro Roasters is coffee brand, it delivers exceptional, freshly roasted coffee beans crafted to elevate your daily ritual with rich aromas, bold flavors, and unmatched artisanal quality",
         deliverables: [
@@ -56,7 +55,6 @@ export const brands = [
             "StoreFront Signage",
             "Cheff Aprun",
         ],
-        // weight = how much width a logo gets on desktop (default 1)
         logos: [
             { src: "/images/Brandings/vertical-kavaro.webp", label: "Primary Logo", weight: 2 },
             { src: "/images/Brandings/horizontal-kavaro.webp", label: "Horizontal Logo", weight: 3 },
@@ -78,7 +76,7 @@ export const brands = [
 
 ];
 
-//fully functioned data over the night and all the other things 
+ 
 
 const otherWork = [
     { label: "Logo Design", to: "/Logos", icon: "ri-pen-nib-line" },
@@ -96,7 +94,6 @@ const fadeUp = {
 
 const pad = (n) => String(n).padStart(2, "0");
 
-// Picks black or white text so any brand colour stays readable
 function readableText(hex) {
     const h = hex.replace("#", "");
     const full = h.length === 3 ? h.split("").map((c) => c + c).join("") : h;
@@ -159,11 +156,9 @@ function CaseStudy({ brand }) {
             setCopied(hex);
             setTimeout(() => setCopied(null), 1500);
         } catch {
-            /* clipboard unavailable, ignore */
         }
     };
 
-    // Only sections that have data are shown, numbered in order (01, 02, 03...)
     const sections = [
         logos.length > 0 && "logos",
         palette.length > 0 && "palette",
@@ -173,7 +168,7 @@ function CaseStudy({ brand }) {
 
     return (
         <>
-            {/* ---------- Case study intro ---------- */}
+            {/*  Case study intro  */}
             <section className="max-w-7xl mx-auto px-4 mt-14">
                 <motion.div
                     {...fadeUp}
@@ -213,7 +208,7 @@ function CaseStudy({ brand }) {
                 </motion.div>
             </section>
 
-            {/* ---------- Logo ---------- */}
+            {/*  Logo  */}
             {logos.length > 0 && (
                 <section className="max-w-7xl mx-auto px-4 mt-24">
                     <SectionTitle no={no("logos")} first="LOGO" second="SYSTEM" />
@@ -244,7 +239,7 @@ function CaseStudy({ brand }) {
                 </section>
             )}
 
-            {/* ---------- Colour ---------- */}
+            {/*  Colour  */}
             {palette.length > 0 && (
                 <section className="max-w-7xl mx-auto px-4 mt-24">
                     <SectionTitle no={no("palette")} first="COLOUR" second="PALETTE" />
@@ -289,7 +284,7 @@ function CaseStudy({ brand }) {
                 </section>
             )}
 
-            {/* ---------- Applications ---------- */}
+            {/*  Applications  */}
             {apps.length > 0 && (
                 <section className="max-w-7xl mx-auto px-4 mt-24">
                     <SectionTitle no={no("apps")} first="BRAND" second="IN USE" />
@@ -329,7 +324,7 @@ function CaseStudy({ brand }) {
                 </section>
             )}
 
-            {/* ---------- Lightbox ---------- */}
+            {/*  Lightbox  */}
             <AnimatePresence>
                 {selected !== null && apps[selected] && (
                     <motion.div
@@ -418,7 +413,7 @@ function BrandingPage() {
 
     return (
         <div className="font-karla">
-            {/* ---------- Heading ---------- */}
+            {/*  Heading  */}
             <section className="max-w-7xl mx-auto px-4 pt-10 md:pt-16">
                 <motion.div
                     initial={{ opacity: 0, y: 25 }}
@@ -467,7 +462,7 @@ function BrandingPage() {
                 </motion.div>
             </section>
 
-            {/* ---------- Selected brand ---------- */}
+            {/*  Selected brand */}
             <AnimatePresence mode="wait">
                 <motion.div
                     key={brand.id}
@@ -480,7 +475,7 @@ function BrandingPage() {
                 </motion.div>
             </AnimatePresence>
 
-            {/* ---------- Explore other work ---------- */}
+            {/*  Explore other work  */}
             <section className="max-w-7xl mx-auto px-4 mt-20">
                 <motion.div {...fadeUp} className="text-center md:text-start">
                     <h2 className="text-4xl md:text-6xl font-extrabold text-secondary">

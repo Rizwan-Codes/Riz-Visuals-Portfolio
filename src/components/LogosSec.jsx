@@ -20,7 +20,6 @@ function LogosSec() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.5, ease: "easeInOut" }}
-        // className="flex flex-col items-center justify-center gap-4 md:flex md:flex-row md:items-center md:justify-center md:gap-4 px-5 md:p-0 mt-15">
         className="grid grid-cols-2 gap-4 sm:grid-cols-4 md:grid-cols-4  px-5 md:p-0 mt-15">
 
         {/* Item 1*/}

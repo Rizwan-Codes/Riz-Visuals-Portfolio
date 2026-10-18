@@ -2,7 +2,6 @@ import { useState, useEffect, useCallback } from "react";
 import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "motion/react";
 
-// ====== ADD NEW LOGOS HERE (one object per logo) ======
 const logos = [
     {
         name: "Venguard Apex",
@@ -47,14 +46,12 @@ const logos = [
 
 ];
 
-// Other work categories shown at the bottom (routes are the ones used in the Footer)
 const otherWork = [
     { label: "Branding", to: "/Brandings", icon: "ri-vip-diamond-line" },
     { label: "Posters", to: "/Poster", icon: "ri-image-line" },
     { label: "Thumbnails", to: "/Thumbnails", icon: "ri-youtube-line" },
     { label: "Social Posts", to: "/Posts", icon: "ri-instagram-line" },
 ];
-// ======================================================
 
 const fadeUp = {
     initial: { opacity: 0, y: 30 },
@@ -66,7 +63,7 @@ const fadeUp = {
 const pad = (n) => String(n).padStart(2, "0");
 
 function Logos() {
-    const [selected, setSelected] = useState(null); // index of open logo, or null
+    const [selected, setSelected] = useState(null); 
 
     const close = useCallback(() => setSelected(null), []);
     const prev = useCallback(
@@ -78,7 +75,6 @@ function Logos() {
         []
     );
 
-    // Keyboard controls + lock page scroll while lightbox is open
     useEffect(() => {
         if (selected === null) return;
         const onKey = (e) => {
@@ -157,7 +153,6 @@ function Logos() {
                                     loading="lazy"
                                     className="hidden aspect-square w-full object-cover transition-all duration-500 ease-in-out md:block md:group-hover:scale-110 md:group-hover:opacity-0"
                                 />
-                                {/* Colour (mobile default, desktop on hover) */}
                                 <img
                                     src={logo.color}
                                     alt={`${logo.name} colour logo`}

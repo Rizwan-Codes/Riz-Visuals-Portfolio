@@ -21,7 +21,6 @@ function SocialPosts() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, ease: "easeInOut" }}
-                // className="flex flex-col items-center justify-center gap-4 md:flex md:flex-row md:items-center md:justify-center md:gap-[51.296px] mt-15">
                 className="w-full grid grid-cols-2 gap-7 md:grid-cols-5 mt-15 px-4 md:p-0">
 
                 <div className="group overflow-hidden border border-secondary rounded-2xl">
