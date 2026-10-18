@@ -4,16 +4,16 @@ import { motion, AnimatePresence } from "motion/react";
 
 // ====== ADD NEW THUMBNAILS HERE (just the image path) ======
 const thumbnails = [
-    "/images/Thumbnails/thumbnail-1.png",
-    "/images/Thumbnails/thumbnail-2.png",
-    "/images/Thumbnails/thumbnail-3.png",
-    "/images/Thumbnails/thumbnail-4.png",
-    "/images/Thumbnails/thumbnail-5.png",
-    "/images/Thumbnails/thumbnail-6.png",
-    "/images/Thumbnails/thumbnail-7.png",
-    "/images/Thumbnails/thumbnail-8.png",
-    "/images/Thumbnails/thumbnail-9.png",
-    "/images/Thumbnails/thumbnail-10.png",
+    "/images/Thumbnails/thumbnail-1.webp",
+    "/images/Thumbnails/thumbnail-2.webp",
+    "/images/Thumbnails/thumbnail-3.webp",
+    "/images/Thumbnails/thumbnail-4.webp",
+    "/images/Thumbnails/thumbnail-5.webp",
+    "/images/Thumbnails/thumbnail-6.webp",
+    "/images/Thumbnails/thumbnail-7.webp",
+    "/images/Thumbnails/thumbnail-8.webp",
+    "/images/Thumbnails/thumbnail-9.webp",
+    "/images/Thumbnails/thumbnail-10.webp",
 ];
 
 // Other work categories shown at the bottom

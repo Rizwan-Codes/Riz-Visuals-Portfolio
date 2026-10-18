@@ -6,43 +6,43 @@ import { motion, AnimatePresence } from "motion/react";
 const logos = [
     {
         name: "Venguard Apex",
-        bw: "/images/Logos/Venguard-Apex/VA-BW.jpg",
-        color: "/images/Logos/Venguard-Apex/VA.jpg",
+        bw: "/images/Logos/Venguard-Apex/VA-BW.webp",
+        color: "/images/Logos/Venguard-Apex/VA.webp",
     },
     {
         name: "Kyro Audios",
-        bw: "/images/Logos/Kyro/KABW.jpg",
-        color: "/images/Logos/Kyro/KA-COL.jpg",
+        bw: "/images/Logos/Kyro/KABW.webp",
+        color: "/images/Logos/Kyro/KA-COL.webp",
     },
     {
         name: "OverDrive",
-        bw: "/images/Logos/Overdrive/Overdrive-BW.jpg",
-        color: "/images/Logos/Overdrive/Overdrive-Col.jpg",
+        bw: "/images/Logos/Overdrive/Overdrive-BW.webp",
+        color: "/images/Logos/Overdrive/Overdrive-Col.webp",
     },
     {
         name: "Spectre",
-        bw: "/images/Logos/Spectre/Spectre-BW.jpg",
-        color: "/images/Logos/Spectre/spectre-Col.jpg",
+        bw: "/images/Logos/Spectre/Spectre-BW.webp",
+        color: "/images/Logos/Spectre/spectre-Col.webp",
     },
      {
         name: "AR Perfumes",
-        bw: "/images/Logos/AR/ARW.png",
-        color: "/images/Logos/AR/ARB.png",
+        bw: "/images/Logos/AR/ARW.webp",
+        color: "/images/Logos/AR/ARB.webp",
     },
      {
         name: "Auralis",
-        bw: "/images/Logos/Auralis/Auralis-B.jpg",
-        color: "/images/Logos/Auralis/Auralis-C.png",
+        bw: "/images/Logos/Auralis/Auralis-B.webp",
+        color: "/images/Logos/Auralis/Auralis-C.webp",
     },
      {
         name: "Vaynex",
-        bw: "/images/Logos/Vaynex/vaynex-b.png",
-        color: "/images/Logos/Vaynex/vaynex-c.jpg",
+        bw: "/images/Logos/Vaynex/vaynex-b.webp",
+        color: "/images/Logos/Vaynex/vaynex-c.webp",
     },
      {
         name: "Startos",
-        bw: "/images/Logos/Startos/Startos-b.png",
-        color: "/images/Logos/Startos/Startos-c.png",
+        bw: "/images/Logos/Startos/Startos-b.webp",
+        color: "/images/Logos/Startos/Startos-c.webp",
     },
 
 ];

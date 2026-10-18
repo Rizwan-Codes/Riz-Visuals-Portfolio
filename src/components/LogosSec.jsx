@@ -30,12 +30,12 @@ function LogosSec() {
         >
           <img
             className="hidden md:block object-contain w-fit h-fit object-center transition-all duration-500 ease-in-out transform md:group-hover:scale-110 group-hover:opacity-0"
-            src="/images/Logos/Venguard-Apex/VA-BW.jpg"
+            src="/images/Logos/Venguard-Apex/VA-BW.webp"
             alt="Venguard Apex BW"
           />
           <img
             className="md:absolute md:inset-0 w-fit h-fit object-contain object-center md:opacity-0 scale-100 transition-all duration-500 ease-in-out transform group-hover:opacity-100 group-hover:scale-110"
-            src="/images/Logos/Venguard-Apex/VA.jpg"
+            src="/images/Logos/Venguard-Apex/VA.webp"
             alt="Venguard Apex Color"
           />
         </div>
@@ -46,12 +46,12 @@ function LogosSec() {
         >
           <img
             className="hidden md:block object-contain w-fit h-fit object-center transition-all duration-500 ease-in-out transform group-hover:scale-110 group-hover:opacity-0"
-            src="/images/Logos/Kyro/KABW.jpg"
+            src="/images/Logos/Kyro/KABW.webp"
             alt="Kyro audios BW"
           />
           <img
             className="md:absolute md:inset-0 w-fit h-fit object-contain object-center md:opacity-0 scale-100 transition-all duration-500 ease-in-out transform group-hover:opacity-100 group-hover:scale-110"
-            src="/images/Logos/Kyro/KA-COL.jpg"
+            src="/images/Logos/Kyro/KA-COL.webp"
             alt="kyro audios Color"
           />
         </div>
@@ -62,12 +62,12 @@ function LogosSec() {
         >
           <img
             className="hidden md:block object-contain w-fit h-fit object-center transition-all duration-500 ease-in-out transform group-hover:scale-110 group-hover:opacity-0"
-            src="/images/Logos/Overdrive/Overdrive-BW.jpg"
+            src="/images/Logos/Overdrive/Overdrive-BW.webp"
             alt="OverDrive BW"
           />
           <img
             className="md:absolute md:inset-0 w-fit h-fit object-contain object-center md:opacity-0 scale-100 transition-all duration-500 ease-in-out transform group-hover:opacity-100 group-hover:scale-110"
-            src="/images/Logos/Overdrive/Overdrive-Col.jpg"
+            src="/images/Logos/Overdrive/Overdrive-Col.webp"
             alt="OverDrive Color"
           />
         </div>
@@ -78,12 +78,12 @@ function LogosSec() {
         >
           <img
             className="hidden md:block object-contain w-fit h-fit object-center transition-all duration-500 ease-in-out transform group-hover:scale-110 group-hover:opacity-0"
-            src="/images/Logos/Spectre/Spectre-BW.jpg"
+            src="/images/Logos/Spectre/Spectre-BW.webp"
             alt="Spectre BW"
           />
           <img
             className="md:absolute md:inset-0 w-fit h-fit object-contain object-center md:opacity-0 scale-100 transition-all duration-500 ease-in-out transform group-hover:opacity-100 group-hover:scale-110"
-            src="/images/Logos/Spectre/spectre-Col.jpg"
+            src="/images/Logos/Spectre/spectre-Col.webp"
             alt="Spectre Color"
           />
         </div>

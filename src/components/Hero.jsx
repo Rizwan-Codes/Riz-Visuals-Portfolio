@@ -120,7 +120,7 @@ export default function Hero() {
                         initial={{ opacity: 0, scale: 0.95, y: 20 }}
                         animate={{ opacity: 1, scale: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.3, ease: [0.25, 0.1, 0.25, 1.0] }}
-                        src="/images/Dp.png"
+                        src="/images/Dp.webp"
                         alt="Rizwan Ali"
                         className="relative z-10 flex max-h-auto w-75 md:max-h-auto md:w-325 object-contain md:object-contain ml-5"
                     />

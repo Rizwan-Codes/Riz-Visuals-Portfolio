@@ -25,22 +25,22 @@ function ThumbSec() {
                 className="w-full grid grid-cols-1 gap-7 md:grid-cols-3 mt-15 px-4 md:p-0">
 
                 <div className="group overflow-hidden border border-secondary rounded-2xl">
-                    <img className="w-fit h-fit object-contain transition-all duration-500 ease-in-out transform  group-hover:scale-105" src="/images/Thumbnails/thumbnail-1.png" alt="" />
+                    <img className="w-fit h-fit object-contain transition-all duration-500 ease-in-out transform  group-hover:scale-105" src="/images/Thumbnails/thumbnail-1.webp" alt="" />
                 </div>
                 <div className="group overflow-hidden border border-secondary rounded-2xl">
-                    <img className="w-fit h-fit object-contain transition-all duration-500 ease-in-out transform  group-hover:scale-105" src="/images/Thumbnails/thumbnail-3.png" alt="" />
+                    <img className="w-fit h-fit object-contain transition-all duration-500 ease-in-out transform  group-hover:scale-105" src="/images/Thumbnails/thumbnail-3.webp" alt="" />
                 </div>
                 <div className="group overflow-hidden border border-secondary rounded-2xl">
-                    <img className="w-fit h-fit object-contain transition-all duration-500 ease-in-out transform  group-hover:scale-105" src="/images/Thumbnails/thumbnail-2.png" alt="" />
+                    <img className="w-fit h-fit object-contain transition-all duration-500 ease-in-out transform  group-hover:scale-105" src="/images/Thumbnails/thumbnail-2.webp" alt="" />
                 </div>
                 <div className="group overflow-hidden border border-secondary rounded-2xl">
-                    <img className="w-fit h-fit object-contain transition-all duration-500 ease-in-out transform  group-hover:scale-105" src="/images/Thumbnails/thumbnail-4.png" alt="" />
+                    <img className="w-fit h-fit object-contain transition-all duration-500 ease-in-out transform  group-hover:scale-105" src="/images/Thumbnails/thumbnail-4.webp" alt="" />
                 </div>
                 <div className="group overflow-hidden border border-secondary rounded-2xl">
-                    <img className="w-fit h-fit object-contain transition-all duration-500 ease-in-out transform  group-hover:scale-105" src="/images/Thumbnails/thumbnail-5.png" alt="" />
+                    <img className="w-fit h-fit object-contain transition-all duration-500 ease-in-out transform  group-hover:scale-105" src="/images/Thumbnails/thumbnail-5.webp" alt="" />
                 </div>
                 <div className="group overflow-hidden border border-secondary rounded-2xl">
-                    <img className="w-fit h-fit object-contain transition-all duration-500 ease-in-out transform  group-hover:scale-105" src="/images/Thumbnails/thumbnail-6.png" alt="" />
+                    <img className="w-fit h-fit object-contain transition-all duration-500 ease-in-out transform  group-hover:scale-105" src="/images/Thumbnails/thumbnail-6.webp" alt="" />
                 </div>
             </motion.div>
             <motion.div

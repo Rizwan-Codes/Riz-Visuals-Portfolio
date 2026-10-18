@@ -22,8 +22,8 @@ export const brands = [
         ],
         // weight = how much width a logo gets on desktop (default 1)
         logos: [
-            { src: "/images/Brandings/MAIN-LOGO.jpg", label: "Primary Logo", weight: 2 },
-            { src: "/images/Brandings/horizontal-design.jpg", label: "Horizontal Logo", weight: 3 },
+            { src: "/images/Brandings/MAIN-LOGO.webp", label: "Primary Logo", weight: 2 },
+            { src: "/images/Brandings/horizontal-design.webp", label: "Horizontal Logo", weight: 3 },
         ],
         palette: [
             { name: "Deep Navy", hex: "#00153F" },
@@ -31,12 +31,12 @@ export const brands = [
             { name: "White", hex: "#FFFFFF" },
         ],
         applications: [
-            { src: "/images/Brandings/Card.png", label: "Business Card" },
-            { src: "/images/Brandings/mobile-app.png", label: "Mobile App Icon" },
-            { src: "/images/Brandings/Shoping-Label.png", label: "Hang Tag" },
-            { src: "/images/Brandings/delivery-box.png", label: "Delivery Packaging" },
-            { src: "/images/Brandings/drone-delivery.png", label: "Delivery Drone" },
-            { src: "/images/Brandings/offive-wall.png", label: "Office Wall" },
+            { src: "/images/Brandings/Card.webp", label: "Business Card" },
+            { src: "/images/Brandings/mobile-app.webp", label: "Mobile App Icon" },
+            { src: "/images/Brandings/Shoping-Label.webp", label: "Hang Tag" },
+            { src: "/images/Brandings/delivery-box.webp", label: "Delivery Packaging" },
+            { src: "/images/Brandings/drone-delivery.webp", label: "Delivery Drone" },
+            { src: "/images/Brandings/offive-wall.webp", label: "Office Wall" },
         ],
     },
 
@@ -58,8 +58,8 @@ export const brands = [
         ],
         // weight = how much width a logo gets on desktop (default 1)
         logos: [
-            { src: "/images/Brandings/vertical-kavaro.jpg", label: "Primary Logo", weight: 2 },
-            { src: "/images/Brandings/horizontal-kavaro.jpg", label: "Horizontal Logo", weight: 3 },
+            { src: "/images/Brandings/vertical-kavaro.webp", label: "Primary Logo", weight: 2 },
+            { src: "/images/Brandings/horizontal-kavaro.webp", label: "Horizontal Logo", weight: 3 },
         ],
         palette: [
             { name: "Dark Gold", hex: "#AD885C" },
@@ -67,12 +67,12 @@ export const brands = [
             { name: "black", hex: "#000000" },
         ],
         applications: [
-            { src: "/images/Brandings/kavaro-coffee-bags.png", label: "Coffee Bags" },
-            { src: "/images/Brandings/kavaro-business.png", label: "Business Card" },
-            { src: "/images/Brandings/kavaro-cup.png", label: "Takeaway Cup" },
-            { src: "/images/Brandings/kavaro-box.png", label: "Shipping Box" },
-            { src: "/images/Brandings/Kavaro-shop.png", label: "Shop Storefront Signage" },
-            { src: "/images/Brandings/kavaro-aprun.png", label: "cheff Aprun" },
+            { src: "/images/Brandings/kavaro-coffee-bags.webp", label: "Coffee Bags" },
+            { src: "/images/Brandings/kavaro-business.webp", label: "Business Card" },
+            { src: "/images/Brandings/kavaro-cup.webp", label: "Takeaway Cup" },
+            { src: "/images/Brandings/kavaro-box.webp", label: "Shipping Box" },
+            { src: "/images/Brandings/Kavaro-shop.webp", label: "Shop Storefront Signage" },
+            { src: "/images/Brandings/kavaro-aprun.webp", label: "cheff Aprun" },
         ],
     },
 

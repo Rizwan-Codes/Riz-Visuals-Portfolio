@@ -4,12 +4,12 @@ import { motion, AnimatePresence } from "motion/react";
 
 
 const posts = [
-    "/images/Posts/post-1.png",
-    "/images/Posts/post-2.png",
-    "/images/Posts/post-3.png",
-    "/images/Posts/post-4.png",
-    "/images/Posts/post-5.png",
-    "/images/Posts/post-6.png",
+    "/images/Posts/post-1.webp",
+    "/images/Posts/post-2.webp",
+    "/images/Posts/post-3.webp",
+    "/images/Posts/post-4.webp",
+    "/images/Posts/post-5.webp",
+    "/images/Posts/post-6.webp",
 ];
 
 

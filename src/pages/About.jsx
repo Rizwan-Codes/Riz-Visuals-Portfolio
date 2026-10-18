@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { motion } from "motion/react";
 
-// ====== EDIT CONTENT HERE ======
+
 const stats = [
     { value: "20+", label: "Client Orders" },
     { value: "5", label: "Design Categories" },
@@ -28,7 +28,7 @@ const steps = [
     { no: "03", title: "Design", text: "The chosen concept is refined into a clean, polished final design." },
     { no: "04", title: "Delivery", text: "You receive all files in the formats you need, with revisions included." },
 ];
-// ===============================
+
 
 const fadeUp = {
     initial: { opacity: 0, y: 30 },
@@ -67,7 +67,7 @@ function About() {
                     >
                         <div className="relative overflow-hidden rounded-2xl border border-secondary bg-linear-to-b from-secondary/25 via-black/40 to-black">
                             <img
-                                src="/images/Dp.png"
+                                src="/images/Dp.webp"
                                 alt="Rizwan Ali"
                                 className="aspect-4/5 w-full object-cover object-top"
                             />
